@@ -61,6 +61,24 @@ Contribute new fixes under /scripts/, document them in /docs/, and log updates i
 This is not a general-purpose dev repo.
 It is the sacred binder of AI development logic.
 
+🔄 April 2025 Update: Project Path Migration Notice
+As of April 2025, the primary saphira-q project directory has been relocated to:
+
+makefile
+Copy
+Edit
+Y:\saphira-q
+This move was made to free up HDD space, improve project file tracking, and leave C:\ resources available for cache and dependencies.
+
+Important Notes for AI Assistants (e.g., Claude, GPT):
+
+Do NOT use any hardcoded paths pointing to C:\Users\angel\saphira-q. These should be replaced with Y:\saphira-q.
+
+Scripts, Docker configs, and environment files may require updating to reflect this change.
+
+If running local servers (e.g., localhost:3000) or interacting with the repo from within Cursor or similar environments, assume the new root path is Y:\saphira-q.
+
+
 Push with purpose.
 Code with clarity.
 Follow the flame.
