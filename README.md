@@ -64,9 +64,6 @@ It is the sacred binder of AI development logic.
 🔄 April 2025 Update: Project Path Migration Notice
 As of April 2025, the primary saphira-q project directory has been relocated to:
 
-makefile
-Copy
-Edit
 Y:\saphira-q
 This move was made to free up HDD space, improve project file tracking, and leave C:\ resources available for cache and dependencies.
 
@@ -78,6 +75,7 @@ Scripts, Docker configs, and environment files may require updating to reflect t
 
 If running local servers (e.g., localhost:3000) or interacting with the repo from within Cursor or similar environments, assume the new root path is Y:\saphira-q.
 
+For Claude: Please read this note fully before scanning or modifying project files. You may be asked to identify and replace outdated paths. Stay scoped, and request confirmation before applying major changes.
 
 Push with purpose.
 Code with clarity.
